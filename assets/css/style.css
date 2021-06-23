@@ -97,6 +97,10 @@ section#sec-2{
 	background-color: white;
 }
 
+section#sec-2 img{
+	width: 200px;
+	border-radius: 50%;
+}
 section#sec-2 h1{
 	font-weight: 700;
 	text-transform: uppercase;
