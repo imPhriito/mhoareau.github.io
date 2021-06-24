@@ -241,6 +241,10 @@ section#sec-4 .reseaux{
 	padding-top: 10px;
 }
 
+section#sec-4 .socialsmedia{
+	transition: 0.2s;
+}
+
 section#sec-4 .socialsmedia:hover{
 	transform: scale(1.2);
 }
