@@ -241,6 +241,10 @@ section#sec-4 .reseaux{
 	padding-top: 10px;
 }
 
+section#sec-4 .reseaux:hover{
+	transform: scale(1.2);
+}
+
 section#sec-4 a{
 	padding: 15px;
 }
