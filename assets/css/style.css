@@ -227,18 +227,18 @@ section#sec-4 h1{
 }
 
 section#sec-4 p{
-	padding-top: 50px;
+	padding-top: 30px;
 	color: white;
 	font-weight: 700;
 }
 section#sec-4 p.gmail{
-	padding-top: 10px;
+	padding-top: 5px;
 	color: white;
 	font-weight: 200;
 }
 
 section#sec-4 .reseaux{
-	padding-top: 10px;
+	padding-top: 5px;
 }
 
 section#sec-4 .socialsmedia{
