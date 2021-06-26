@@ -60,19 +60,93 @@ section#sec-1 .bg .container p{
 section#sec-1 .bg .container a.title-btn{
 	background-color: white;
 	padding: 1em 2em;
-	border-radius: 10px;
 	color: black;
 	font-weight: 500;
 	text-transform: uppercase;
 	position: relative;
 	cursor: pointer;
 	user-select: none;
-	transition: 0.3s;
+	transition: 1s;
 	text-decoration: none;
 }
 
 section#sec-1 .bg .container a.title-btn:hover{
-	color: darkgoldenrod;
+	color: white;
+	background-color: black;
+}
+
+section#sec-1 a.title-btn span{
+	display: block;
+	position: absolute;
+	background: white;
+
+}
+
+section#sec-1 a.title-btn span:nth-child(1){
+	left: 0;
+	bottom: 0;
+	width: 1.75px;
+	height: 100%;
+	transform: scaleY(0);
+	transform-origin: top;
+	transition: transform 0.5s;
+}
+
+section#sec-1 a.title-btn:hover span:nth-child(1){
+	transform: scaleY(1);
+	transform-origin: bottom;
+	transition: transform 0.5s;
+}
+
+section#sec-1 a.title-btn span:nth-child(2){
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 1.75px;
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform 0.5s;
+}
+
+section#sec-1 a.title-btn:hover span:nth-child(2){
+	transform: scaleX(1);
+	transform-origin: left;
+	transition: transform 0.5s;
+	transition-delay: 0.5s;
+}
+
+section#sec-1 a.title-btn span:nth-child(3){
+	right: 0;
+	bottom: 0;
+	width: 1.75px;
+	height: 100%;
+	transform: scaleY(0);
+	transform-origin: bottom;
+	transition: transform 0.5s;
+}
+
+section#sec-1 a.title-btn:hover span:nth-child(3){
+	transform: scaleY(1);
+	transform-origin: top;
+	transition: transform 0.5s;
+	transition-delay: 0.10s;
+}
+
+section#sec-1 a.title-btn span:nth-child(4){
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 1.75px;
+	transform: scaleX(0);
+	transform-origin: left;
+	transition: transform 0.5s;
+}
+
+section#sec-1 a.title-btn:hover span:nth-child(4){
+	transform: scaleX(1);
+	transform-origin: right;
+	transition: transform 0.5s;
+	transition-delay: 0.5s;
 }
 
 
@@ -118,6 +192,12 @@ section#sec-2 img{
 	border-radius: 50%;
 	user-select: none;
 }
+
+section#sec-2 img:hover{
+	border: 2px solid black;
+	transform: scale(1.05);
+}
+
 section#sec-2 h1{
 	font-weight: 700;
 	text-transform: uppercase;
@@ -193,7 +273,12 @@ section#sec-3 h4{
 section#sec-3 img{
 	padding-top: 50px;
 	user-select: none;
+	transition: 0.3s;
 }
+
+section#sec-3 img:hover{
+	transform: scale(1.05);
+}	
 
 section#sec-3 a.voirsite{
 	text-transform: uppercase;
