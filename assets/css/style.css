@@ -10,6 +10,7 @@
 }
 
 body{
+	position: relative;
 	background-image: url(../img/background.png);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -549,7 +550,7 @@ section#services .services-card{
 		align-items: center;
 	}
 
-	section#services .services-card .card-two{
+	section#services .services-card .card{
 		margin-top: 75px;
 	}
 }
@@ -561,6 +562,7 @@ section#services .services-card .card{
 	border-radius: 4px;
 	background-color: #1F1F30;
 	transition: 0.6s;
+	
 }
 
 section#services .services-card .card::before{
@@ -617,6 +619,22 @@ section#services .services-card .card p{
 
 
 @media screen and (max-width: 725px){
+	section#services .services-card .card{
+		width: 400px;
+		margin-top: 50px;
+	}
+
+}
+
+@media screen and (max-width: 485px){
+	section#services .services-card .card{
+		width: 300px;
+		margin-top: 50px;
+	}
+
+}
+
+@media screen and (max-width: 350px){
 	section#services .services-card .card{
 		width: 250px;
 		margin-top: 50px;
