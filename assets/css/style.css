@@ -176,6 +176,7 @@ nav ul li a:hover::after{
 	position: relative;
 	color: #4FB5FD;
 	font-weight: 500;
+	user-select: none;
 }
 
 .accueil .home-content .text-3 span::before{
