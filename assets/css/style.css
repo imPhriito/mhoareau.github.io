@@ -561,7 +561,6 @@ section#services .services-card .card{
 	border-radius: 4px;
 	background-color: #1F1F30;
 	transition: 0.6s;
-	cursor: pointer;
 }
 
 section#services .services-card .card::before{
