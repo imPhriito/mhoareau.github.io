@@ -718,23 +718,15 @@ section#compétences .competence-zone .line::before{
 }
 
 section#compétences .competence-zone .html::before{
-	width: 29%;
+	width: 42%;
 }
 
 section#compétences .competence-zone .css::before{
-	width: 17%;
+	width: 39%;
 }
 
 section#compétences .competence-zone .javascript::before{
-	width: 4%;
-}
-
-section#compétences .competence-zone .php::before{
-	width: 0%;
-}
-
-section#compétences .competence-zone .mysql::before{
-	width: 0%;
+	width: 28%;
 }
 
 section#contact{
