@@ -143,10 +143,6 @@ nav ul li a:hover::after{
 
 .accueil{
 	display: flex;
-	background-image: url(../img/background.gif);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
 	height: 100vh;
 	min-height: 500px;
 	color: #fff;
@@ -723,6 +719,10 @@ section#compétences .competence-zone .html::before{
 
 section#compétences .competence-zone .css::before{
 	width: 39%;
+}
+
+section#compétences .competence-zone .responsive::before{
+	width: 74%;
 }
 
 section#compétences .competence-zone .javascript::before{
