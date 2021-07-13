@@ -438,7 +438,6 @@ section#apropos .about-zone .right .cv-btn a:hover{
 section#apropos .about-zone .right .cv-btn{
 	transition: .3s;
 	width: 225px;
-	padding-bottom: 100px;
 }
 
 section#apropos .about-zone .right .cv-btn:hover{
